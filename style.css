@@ -1,0 +1,124 @@
+@import url("https://fonts.googleapis.com/css2?family=STIX+Two+Text:wght@400;500;600;700&family=Sorts+Mill+Goudy:ital@0;1&display=swap");
+
+* {
+  box-sizing: border-box;
+  padding: 0%;
+  margin: 0%;
+  text-decoration: none;
+}
+body {
+  background-image: url(fotos/Property\ 1=Default.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.img-esfera {
+  width: 72px;
+  height: 75px;
+}
+h3 {
+  font-family: "Sorts Mill Goudy";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 39px;
+  text-transform: uppercase;
+  color: #fffcdf;
+}
+.buttonHeader {
+  font-family: "Sorts Mill Goudy";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 39px;
+  text-transform: uppercase;
+  display: flex;
+  gap: 20px;
+}
+.char {
+  color: #fffcdf;
+  border-radius: 20px;
+}
+.char:hover {
+  border-bottom: solid 2px #fffcdf;
+}
+.news {
+  color: #fffcdf;
+  border-radius: 20px;
+}
+.news:hover {
+  border-bottom: solid 2px #fffcdf;
+}
+.item {
+  color: #fffcdf;
+  border-radius: 20px;
+}
+.item:hover {
+  border-bottom: solid 2px #fffcdf;
+}
+.titleEsfera {
+  display: flex;
+  align-items: center;
+  gap: 20px;
+}
+header {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  flex-wrap: wrap;
+  align-items: center;
+  padding: 5px;
+}
+h1 {
+  font-family: "Sorts Mill Goudy";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 24px;
+  line-height: 58px;
+  text-transform: uppercase;
+  text-align: center;
+  color: #ffffff;
+}
+p {
+  width: 340px;
+  padding: 15px 0px 0px 0px;
+  font-family: "STIX Two Text";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 26px;
+  text-align: center;
+  text-transform: capitalize;
+  color: #ffffff;
+  border-top: solid 1px #fffcdf;
+}
+main {
+  border-top: solid 1px #fffcdf;
+  padding: 30px;
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+}
+.vegitoSection {
+  display: flex;
+  justify-content: space-around;
+}
+.gogetaSection {
+  display: flex;
+  justify-content: space-around;
+}
+
+.img-vegito {
+  width: 270px;
+  height: auto;
+}
+.img-gogeta {
+  width: 300px;
+  height: auto;
+}
+
+@media screen and (max-width: 500px) {
+  p {
+    font-size: 10px;
+  }
+} ;
